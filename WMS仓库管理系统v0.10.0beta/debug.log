@@ -1,0 +1,7 @@
+2018-04-09 11:14:50 DEBUG ReceivingNotesServices:56 - ReceivingNotesServices is starting...
+2018-04-09 11:14:50 INFO  Broker:31 - Connected to tracker(124.128.244.168:15555)
+2018-04-09 11:14:50 INFO  AbstractClient:34 - Connection(124.128.244.168:15555) OK
+2018-04-09 11:14:50 INFO  Broker:31 - Connected to tracker(124.128.244.168:15555)
+2018-04-09 11:14:50 INFO  AbstractClient:34 - Connection(124.128.244.168:15555) OK
+2018-04-09 11:14:51 INFO  Broker:31 - Connected to tracker(124.128.244.168:15555)
+2018-04-09 11:14:51 INFO  AbstractClient:34 - Connection(124.128.244.168:15555) OK
