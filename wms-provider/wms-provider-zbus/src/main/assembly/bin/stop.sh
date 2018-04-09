@@ -1,0 +1,1 @@
+kill $(ps -aux | grep '[/]usr/java/jdk1.8.0_144/bin/java -Dfile.encoding=UTF-8 -server -Xms64m -Xmx1024m -XX:+UseParallelGC -Dlog4j.configuration=file:..//conf/log4j.properties -cp ..//lib/\*:..//classes:..//\* com.yorma.wms.zbus.provider.ZbusProvider -conf ../conf/zbus.xml' | awk '{print $2}')

@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.yorma</groupId>
+		<artifactId>wms-dao</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>wms-dao-memory</artifactId>
+	<version>1.9.8</version>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.yorma</groupId>
+			<artifactId>wms-dao-api</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.yorma</groupId>
+			<artifactId>common-model</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.yorma</groupId>
+			<artifactId>search-dao-memory</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>cn.ffcs</groupId>
+			<artifactId>memory</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<!-- 日志 -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
+
+
+		<!-- 数据库层框架 -->
+		<!-- <dependency> <groupId>cn.ffcs</groupId> <artifactId>memory</artifactId> 
+			<version>1.0.0</version> </dependency> -->
+
+		<!-- 单元测试 -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+</project>
